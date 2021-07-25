@@ -1,0 +1,103 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2946,         95]
+NotebookOptionsPosition[      2431,         78]
+NotebookOutlinePosition[      2772,         93]
+CellTagsIndexPosition[      2729,         90]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"R", "'"}], "[", "t", "]"}], "==", 
+   RowBox[{"k", "*", "R"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"R", "[", "0", "]"}], "==", "r0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"R", "'"}], "[", "t", "]"}], "==", 
+   RowBox[{"k", "*", "R"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"R", "[", "0", "]"}], "==", "r0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"ss", "=", 
+  RowBox[{"DSolve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"R", "'"}], "[", "t", "]"}], "==", 
+       RowBox[{"k", "*", 
+        RowBox[{"R", "[", "t", "]"}]}]}], ",", 
+      RowBox[{
+       RowBox[{"R", "[", "0", "]"}], "==", "r0"}]}], "}"}], ",", 
+    RowBox[{"R", "[", "t", "]"}], ",", "t"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.8317703525110455`*^9, 3.8317704011172423`*^9}},
+ CellLabel->"In[89]:=",ExpressionUUID->"6d3a1a3d-bf99-467f-bb5e-3ff783109492"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DSolve","deqn",
+   "\"Equation or list of equations expected instead of \
+\\!\\(\\*RowBox[{\\\"True\\\"}]\\) in the first argument \
+\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"True\\\", \\\",\\\", \\\"True\\\"}], \
+\\\"}\\\"}]\\).\"",2,93,40,25502754884431495845,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8317704116280193`*^9},
+ CellLabel->
+  "During evaluation of \
+In[89]:=",ExpressionUUID->"c8e2355d-c838-49fa-a582-f8fc3a6bf453"],
+
+Cell[BoxData[
+ RowBox[{"DSolve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"True", ",", "True"}], "}"}], ",", 
+   RowBox[{"R", "[", "t", "]"}], ",", "t"}], "]"}]], "Output",
+ CellChangeTimes->{3.831770411643641*^9},
+ CellLabel->"Out[93]=",ExpressionUUID->"3898b17c-6c16-4ed9-bdc5-4b774bf67034"]
+}, Open  ]]
+},
+WindowSize->{1507, 781},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1040, 31, 105, "Input",ExpressionUUID->"6d3a1a3d-bf99-467f-bb5e-3ff783109492"],
+Cell[1623, 55, 491, 11, 23, "Message",ExpressionUUID->"c8e2355d-c838-49fa-a582-f8fc3a6bf453"],
+Cell[2117, 68, 298, 7, 32, "Output",ExpressionUUID->"3898b17c-6c16-4ed9-bdc5-4b774bf67034"]
+}, Open  ]]
+}
+]
+*)
+
